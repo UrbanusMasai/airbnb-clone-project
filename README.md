@@ -78,3 +78,24 @@ The database is designed to support core Airbnb-like functionalities, ensuring s
 - A Booking is linked to a single Property.
 - A User can leave multiple Reviews, but only one review per booking/property.
 - A Payment is tied to a single Booking.
+
+# Feature Breakdown
+This Airbnb Clone project includes the following core features that simulate the functionality of a real-world booking platform:
+
+## User Management
+Users can create accounts, log in securely, and manage their profiles. Authentication and authorization ensure role-based access for guests, hosts, and administrators.
+
+## Property Management
+Hosts can list properties with details such as title, description, location, price, and availability. Properties are searchable and filterable by location, price, and other attributes.
+
+## Booking System
+Guests can book properties for specific dates. The booking workflow includes availability checks, booking confirmation, and status management (pending, confirmed, or cancelled).
+
+## Review System
+Guests can leave reviews and ratings for properties they have booked. Reviews provide credibility to hosts and improve decision-making for future guests.
+
+## Payment Integration
+Secure payment processing allows guests to pay for bookings. Payment records are tied to bookings and include status updates (completed, pending, failed).
+
+## Admin Dashboard
+Administrators can oversee users, properties, bookings, and payments. This ensures the platform runs smoothly and maintains security and trust across all interactions.
