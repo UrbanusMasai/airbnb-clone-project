@@ -133,3 +133,30 @@ All communication between clients and the server will use HTTPS (TLS/SSL).
 - Protects user privacy and sensitive data (personal info, payment details).
 - Builds trust between users and the platform.
 - Ensures compliance with security best practices and industry standards.
+
+# CI/CD Pipeline
+Continuous Integration and Continuous Deployment (CI/CD) pipelines are essential for automating the software development process. They ensure that new code changes are tested, integrated, and deployed efficiently with minimal manual effort.
+
+## Why CI/CD is Important for This Project:
+## Reliability: 
+- Every code change is automatically tested, reducing the risk of bugs reaching production.
+## Speed: 
+- Automates deployment, so updates are shipped faster and more frequently.
+## Collaboration: 
+- Encourages seamless teamwork by integrating changes from multiple developers.
+## Consistency: 
+- Ensures deployments are repeatable and free from human error.
+
+# Tools We Will Use:
+## GitHub Actions: 
+- Automates build, test, and deployment workflows directly within the GitHub repository.
+## Docker: 
+- Provides consistent containerized environments, making deployments more reliable.
+## Jenkins or CircleCI: 
+- Can be integrated if advanced automation or scaling is needed.
+
+# How it Works in This Project:
+- A developer pushes code to GitHub.
+- GitHub Actions runs automated tests and builds.
+- If tests pass, Docker containers are built and deployed to the server.
+- Updates are rolled out automatically with minimal downtime.
